@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Models
+models/*.h5
+!models/waste_classifier.h5
+
+# Outputs
+outputs/
+*.jpg
+*.png
+*.json
+!requirements.txt
+!*config.json
+
+# Logs
+logs/
+*.log
+
+# Dataset (too large)
+dataset/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
